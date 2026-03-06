@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .slide-text {
+            position: relative;
+            animation: slide 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes slide {
+            from {
+                left: 0;
+            }
+
+            to {
+                left: 300px;
+            }
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+</head>
+
+<body style="font-style: italic; background-color: aqua; text-align: center;">
+    <!-- scemantic tags -->
+    <header>
+        <h1>PUNITH KUMAR</h1>
+        <p class="slide-text">Goat of GAUK GAUK GAUK GAUK GAUK GAUK</p>
+    </header>
+    <br>
+    <nav>
+        <a href="#">About</a><br>
+        <a href="#">Skills</a><br>
+        <a href="#">Contact</a><br>
+    </nav><br>
+    <main>
+        <section id="about">
+            <h2>About me</h2>
+            <p class="slide-text">Hellow! my name is punith kumar,
+                I am money maker, i guide people to make more money using their hidden skills</p>
+            <h3>
+                <video width="320" height="180" controls>
+                    <source src="myvideo.mp4" type="video/mp4">
+                    your browser dosen't support video tag
+                </video>
+            </h3>
+        </section>
+        <selection id="skills">
+            <h2>my skills</h2>
+            <article>
+                <h3>communication</h3>
+                <p>training pepole to make money</p>
+            </article>
+            <h3>my audio speach</h3>
+            <audio controls>
+                <source src="myaudio.mp3" type="audio/mpeg">
+                your browser dosen't support audio tag
+            </audio>
+        </selection>
+        <section id="contact">
+            <h2>contact me</h2>
+            <p class="slide-text">email: punithkumar@gmail.com</p>
+            <p class="slide-text">phone: 9999111191</p>
+            <h3>my location</h3>
+            <iframe src="https://svvndegreecollege.com/" width="480" height="270"></iframe>
+        </section>
+    </main>
+</body>
+
+</html>
